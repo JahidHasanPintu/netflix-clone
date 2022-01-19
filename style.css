@@ -5,10 +5,17 @@ body{
 .top-section{
     display: flex;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.712)url(images/top-bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 700px;
+    border-bottom: 10px solid gray;
+   
 }
 .container{
-    margin-top: 20px;
-    width: 90%;
+    margin-top: 30px;
+    width: 92%;
 }
 header{
     display: flex;
@@ -29,5 +36,46 @@ header{
 }
 
 .top-container{
-    background-color: blue;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+.top-container h1{
+    font-size: 50px;
+    width: 45%;
+}
+.top-container h2{
+    margin-top: 0;
+    line-height: 0;
+    font-weight: 800;
+}
+.top-container p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.email-lookup{
+    display: flex;
+    align-items: center;
+}
+.email-lookup input{
+    width: 450px;
+    height: 60px;
+    margin-right: 0;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+.email-lookup button{
+    height: 65px;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    font-weight: 800;
+    font-size: 30px;
+    border: none;
+    margin-left: 0;
 }
